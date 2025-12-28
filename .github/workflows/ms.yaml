@@ -10,7 +10,7 @@ jobs:
       - name: Étape 0 - Checkout du code
         uses: actions/checkout@v3
       - name: Étape 1 - Message de bienvenue
-        run: echo "workflow à plusieurs étapes !"      
+        run: echo "workflow à plusieurs étapes !"
       - name: Étape 2 - Afficher la date
         run: date
       - name: Étape 3 - Afficher le nom de la branche
